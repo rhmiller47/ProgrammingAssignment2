@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
     ## functions used in cacheSolve 
     setsolve <- function(solve) m <<- solve
     getsolve <- function() m
-    ## list of commands creaated by makeCacheMatrix
+    ## list of commands created by makeCacheMatrix
     list(set = set, get = get, setsolve = setsolve,
                 getsolve = getsolve)  
 }
